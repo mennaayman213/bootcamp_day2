@@ -1,0 +1,42 @@
+body{
+background-color: rgb(235, 212, 176);
+height: 2000px;
+}
+.parent{
+    background-color: rgb(219, 184, 127);
+    text-align: center;
+    padding: 20px;
+}
+.div{
+    display: inline-block;
+    width: 30%;
+    padding: 5px;
+    border: 5px white solid;
+    background-color: rgb(238, 183, 116);
+}
+.div img{
+    width: 100%;
+}
+.div p{
+    color: #292102;
+    font-size: 15px;
+}
+.btn{
+    background-color: rgb(230, 136, 54);
+    color: rgb(249, 242, 200);
+    border-radius: 15px;
+    border: 2px white solid;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.divv{
+    background-image: url(img/img-1.jpg);
+    background-attachment: fixed;
+    height: 400px;
+    background-size: cover;
+    margin-top: 50px;
+    background-position: center center;
+    opacity:0-1;
+    background-color: blue;
+}
